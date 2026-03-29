@@ -1,0 +1,442 @@
+
+Create plan 0:
+
+{
+    "subtasks": [
+        {
+            "description": "Prepare WPS namelist and run geogrid to generate domain geography files for the Jianghuai region squall line case",
+            "state": "todo"
+        },
+        {
+            "description": "Process FNL meteorological data through ungrib and metgrid to create initial and boundary conditions",
+            "state": "todo"
+        },
+        {
+            "description": "Create control and perturbed wrfinput files by modifying soil moisture in the squall line path region",
+            "state": "todo"
+        },
+        {
+            "description": "Run WRF simulations for both control and perturbed cases",
+            "state": "todo"
+        },
+        {
+            "description": "Analyze simulation outputs to extract cold pool characteristics, squall line speed, and lifecycle metrics",
+            "state": "todo"
+        },
+        {
+            "description": "Validate simulation results against GPM rainfall observations and draw conclusion about the hypothesis",
+            "state": "todo"
+        }
+    ]
+}
+====================
+Type "continue" if the program halts and you are satisfied with the plan; otherwise, you can type your suggestion.
+====================
+
+Create plan 1:
+
+{
+    "subtasks": [
+        {
+            "description": "Prepare WPS namelist and run geogrid to generate domain geography files for the Jianghuai region squall line case",
+            "state": "todo"
+        },
+        {
+            "description": "Process FNL meteorological data through ungrib and metgrid to create initial and boundary conditions",
+            "state": "todo"
+        },
+        {
+            "description": "Create control and perturbed wrfinput files by modifying soil moisture in the squall line path region",
+            "state": "todo"
+        },
+        {
+            "description": "Run WRF simulations for both control and perturbed cases",
+            "state": "todo"
+        },
+        {
+            "description": "Analyze simulation outputs to extract cold pool characteristics, squall line speed, and lifecycle metrics",
+            "state": "todo"
+        },
+        {
+            "description": "Validate simulation results against GPM rainfall observations and draw conclusion about the hypothesis",
+            "state": "todo"
+        }
+    ]
+}
+====================
+Type "continue" if the program halts and you are satisfied with the plan; otherwise, you can type your suggestion.
+====================
+
+Create plan 2:
+
+{
+    "subtasks": [
+        {
+            "description": "Prepare WPS namelist and run geogrid to generate domain geography files for the Jianghuai region squall line case",
+            "state": "done"
+        },
+        {
+            "description": "Process FNL meteorological data through ungrib and metgrid to create initial and boundary conditions",
+            "state": "todo"
+        },
+        {
+            "description": "Create control and perturbed wrfinput files by modifying soil moisture in the squall line path region",
+            "state": "todo"
+        },
+        {
+            "description": "Run WRF simulations for both control and perturbed cases",
+            "state": "todo"
+        },
+        {
+            "description": "Analyze simulation outputs to extract cold pool characteristics, squall line speed, and lifecycle metrics",
+            "state": "todo"
+        },
+        {
+            "description": "Validate simulation results against GPM rainfall observations and draw conclusion about the hypothesis",
+            "state": "todo"
+        }
+    ]
+}
+====================
+Type "continue" if the program halts and you are satisfied with the plan; otherwise, you can type your suggestion.
+====================
+
+Create plan 3:
+
+{
+    "subtasks": [
+        {
+            "description": "Prepare WPS namelist and run geogrid to generate domain geography files for the Jianghuai region squall line case",
+            "state": "done"
+        },
+        {
+            "description": "Process FNL meteorological data through ungrib and metgrid to create initial and boundary conditions",
+            "state": "todo"
+        },
+        {
+            "description": "Create control and perturbed wrfinput files by modifying soil moisture in the squall line path region",
+            "state": "todo"
+        },
+        {
+            "description": "Run WRF simulations for both control and perturbed cases",
+            "state": "todo"
+        },
+        {
+            "description": "Analyze simulation outputs to extract cold pool characteristics, squall line speed, and lifecycle metrics",
+            "state": "todo"
+        },
+        {
+            "description": "Validate simulation results against GPM rainfall observations and draw conclusion about the hypothesis",
+            "state": "todo"
+        }
+    ]
+}
+====================
+Type "continue" if the program halts and you are satisfied with the plan; otherwise, you can type your suggestion.
+====================
+
+Create plan 4:
+
+{
+    "subtasks": [
+        {
+            "description": "Prepare WPS namelist and run geogrid to generate domain geography files for the Jianghuai region squall line case",
+            "state": "done"
+        },
+        {
+            "description": "Process FNL meteorological data through ungrib and metgrid to create initial and boundary conditions",
+            "state": "done"
+        },
+        {
+            "description": "Create control and perturbed wrfinput files by modifying soil moisture in the squall line path region",
+            "state": "todo"
+        },
+        {
+            "description": "Run WRF simulations for both control and perturbed cases",
+            "state": "todo"
+        },
+        {
+            "description": "Analyze simulation outputs to extract cold pool characteristics, squall line speed, and lifecycle metrics",
+            "state": "todo"
+        },
+        {
+            "description": "Validate simulation results against GPM rainfall observations and draw conclusion about the hypothesis",
+            "state": "todo"
+        }
+    ]
+}
+====================
+Type "continue" if the program halts and you are satisfied with the plan; otherwise, you can type your suggestion.
+====================
+
+Create plan 5:
+
+{
+    "subtasks": [
+        {
+            "description": "Prepare WPS namelist and run geogrid to generate domain geography files for the Jianghuai region squall line case",
+            "state": "done"
+        },
+        {
+            "description": "Process FNL meteorological data through ungrib and metgrid to create initial and boundary conditions",
+            "state": "done"
+        },
+        {
+            "description": "Create control and perturbed wrfinput files by modifying soil moisture in the squall line path region",
+            "state": "todo"
+        },
+        {
+            "description": "Run WRF simulations for both control and perturbed cases",
+            "state": "todo"
+        },
+        {
+            "description": "Analyze simulation outputs to extract cold pool characteristics, squall line speed, and lifecycle metrics",
+            "state": "todo"
+        },
+        {
+            "description": "Validate simulation results against GPM rainfall observations and draw conclusion about the hypothesis",
+            "state": "todo"
+        }
+    ]
+}
+====================
+Type "continue" if the program halts and you are satisfied with the plan; otherwise, you can type your suggestion.
+====================
+
+Create plan 6:
+
+{
+    "subtasks": [
+        {
+            "description": "Prepare WPS namelist and run geogrid to generate domain geography files for the Jianghuai region squall line case",
+            "state": "done"
+        },
+        {
+            "description": "Process FNL meteorological data through ungrib and metgrid to create initial and boundary conditions",
+            "state": "done"
+        },
+        {
+            "description": "Create control and perturbed wrfinput files by modifying soil moisture in the squall line path region",
+            "state": "done"
+        },
+        {
+            "description": "Run WRF simulations for both control and perturbed cases",
+            "state": "todo"
+        },
+        {
+            "description": "Analyze simulation outputs to extract cold pool characteristics, squall line speed, and lifecycle metrics",
+            "state": "todo"
+        },
+        {
+            "description": "Validate simulation results against GPM rainfall observations and draw conclusion about the hypothesis",
+            "state": "todo"
+        }
+    ]
+}
+====================
+Type "continue" if the program halts and you are satisfied with the plan; otherwise, you can type your suggestion.
+====================
+
+Create plan 7:
+
+{
+    "subtasks": [
+        {
+            "description": "Prepare WPS namelist and run geogrid to generate domain geography files for the Jianghuai region squall line case",
+            "state": "done"
+        },
+        {
+            "description": "Process FNL meteorological data through ungrib and metgrid to create initial and boundary conditions",
+            "state": "done"
+        },
+        {
+            "description": "Create control and perturbed wrfinput files by modifying soil moisture in the squall line path region",
+            "state": "done"
+        },
+        {
+            "description": "Run WRF simulations for both control and perturbed cases",
+            "state": "todo"
+        },
+        {
+            "description": "Analyze simulation outputs to extract cold pool characteristics, squall line speed, and lifecycle metrics",
+            "state": "todo"
+        },
+        {
+            "description": "Validate simulation results against GPM rainfall observations and draw conclusion about the hypothesis",
+            "state": "todo"
+        }
+    ]
+}
+====================
+Type "continue" if the program halts and you are satisfied with the plan; otherwise, you can type your suggestion.
+====================
+
+Create plan 8:
+
+{
+    "subtasks": [
+        {
+            "description": "Prepare WPS namelist and run geogrid to generate domain geography files for the Jianghuai region squall line case",
+            "state": "done"
+        },
+        {
+            "description": "Process FNL meteorological data through ungrib and metgrid to create initial and boundary conditions",
+            "state": "done"
+        },
+        {
+            "description": "Create control and perturbed wrfinput files by modifying soil moisture in the squall line path region",
+            "state": "done"
+        },
+        {
+            "description": "Run WRF simulations for both control and perturbed cases",
+            "state": "done"
+        },
+        {
+            "description": "Analyze simulation outputs to extract cold pool characteristics, squall line speed, and lifecycle metrics",
+            "state": "todo"
+        },
+        {
+            "description": "Validate simulation results against GPM rainfall observations and draw conclusion about the hypothesis",
+            "state": "todo"
+        }
+    ]
+}
+====================
+Type "continue" if the program halts and you are satisfied with the plan; otherwise, you can type your suggestion.
+====================
+
+Create plan 9:
+
+{
+    "subtasks": [
+        {
+            "description": "Prepare WPS namelist and run geogrid to generate domain geography files for the Jianghuai region squall line case",
+            "state": "done"
+        },
+        {
+            "description": "Process FNL meteorological data through ungrib and metgrid to create initial and boundary conditions",
+            "state": "done"
+        },
+        {
+            "description": "Create control and perturbed wrfinput files by modifying soil moisture in the squall line path region",
+            "state": "done"
+        },
+        {
+            "description": "Run WRF simulations for both control and perturbed cases",
+            "state": "done"
+        },
+        {
+            "description": "Analyze simulation outputs to extract cold pool characteristics, squall line speed, and lifecycle metrics",
+            "state": "todo"
+        },
+        {
+            "description": "Validate simulation results against GPM rainfall observations and draw conclusion about the hypothesis",
+            "state": "todo"
+        }
+    ]
+}
+====================
+Type "continue" if the program halts and you are satisfied with the plan; otherwise, you can type your suggestion.
+====================
+
+Create plan 10:
+
+{
+    "subtasks": [
+        {
+            "description": "Prepare WPS namelist and run geogrid to generate domain geography files for the Jianghuai region squall line case",
+            "state": "done"
+        },
+        {
+            "description": "Process FNL meteorological data through ungrib and metgrid to create initial and boundary conditions",
+            "state": "done"
+        },
+        {
+            "description": "Create control and perturbed wrfinput files by modifying soil moisture in the squall line path region",
+            "state": "done"
+        },
+        {
+            "description": "Run WRF simulations for both control and perturbed cases",
+            "state": "done"
+        },
+        {
+            "description": "Analyze simulation outputs to extract cold pool characteristics, squall line speed, and lifecycle metrics",
+            "state": "done"
+        },
+        {
+            "description": "Validate simulation results against GPM rainfall observations and draw conclusion about the hypothesis",
+            "state": "todo"
+        }
+    ]
+}
+====================
+Type "continue" if the program halts and you are satisfied with the plan; otherwise, you can type your suggestion.
+====================
+
+Create plan 11:
+
+{
+    "subtasks": [
+        {
+            "description": "Prepare WPS namelist and run geogrid to generate domain geography files for the Jianghuai region squall line case",
+            "state": "done"
+        },
+        {
+            "description": "Process FNL meteorological data through ungrib and metgrid to create initial and boundary conditions",
+            "state": "done"
+        },
+        {
+            "description": "Create control and perturbed wrfinput files by modifying soil moisture in the squall line path region",
+            "state": "done"
+        },
+        {
+            "description": "Run WRF simulations for both control and perturbed cases",
+            "state": "done"
+        },
+        {
+            "description": "Analyze simulation outputs to extract cold pool characteristics, squall line speed, and lifecycle metrics",
+            "state": "done"
+        },
+        {
+            "description": "Validate simulation results against GPM rainfall observations and draw conclusion about the hypothesis",
+            "state": "todo"
+        }
+    ]
+}
+====================
+Type "continue" if the program halts and you are satisfied with the plan; otherwise, you can type your suggestion.
+====================
+
+Create plan 12:
+
+{
+    "subtasks": [
+        {
+            "description": "Prepare WPS namelist and run geogrid to generate domain geography files for the Jianghuai region squall line case",
+            "state": "done"
+        },
+        {
+            "description": "Process FNL meteorological data through ungrib and metgrid to create initial and boundary conditions",
+            "state": "done"
+        },
+        {
+            "description": "Create control and perturbed wrfinput files by modifying soil moisture in the squall line path region",
+            "state": "done"
+        },
+        {
+            "description": "Run WRF simulations for both control and perturbed cases",
+            "state": "done"
+        },
+        {
+            "description": "Analyze simulation outputs to extract cold pool characteristics, squall line speed, and lifecycle metrics",
+            "state": "done"
+        },
+        {
+            "description": "Validate simulation results against GPM rainfall observations and draw conclusion about the hypothesis",
+            "state": "done"
+        }
+    ]
+}
+====================
+Type "continue" if the program halts and you are satisfied with the plan; otherwise, you can type your suggestion.
+====================

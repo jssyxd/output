@@ -1,0 +1,13 @@
+以下是这四个气象诊断问题的工具实际执行顺序：
+
+**问题 1：台风强度演变分析**
+`enter_easy_task_mode` ➔ `Youtube` ➔ `ingest_tensor` ➔ `locate_feature` ➔ `plot_cartesian_chart` ➔ `generate_response`
+
+**问题 2：台风完整路径追踪与叠加 SLP 场**
+`enter_easy_task_mode` ➔ `Youtube` ➔ `ingest_tensor` ➔ `locate_feature` ➔ `plot_spatial_map` ➔ `generate_response`
+
+**问题 3：极端降水总和计算与最大值定位**
+`enter_easy_task_mode` ➔ `list_directory` ➔ `Youtube` ➔ `ingest_tensor` ➔ `transform_tensor` ➔ `locate_feature` ➔ `plot_spatial_map` ➔ `generate_response`
+
+**问题 4：近地层水平散度计算与强辐合区提取**
+`enter_easy_task_mode` ➔ `ingest_tensor` ➔ `transform_tensor` ➔ `locate_feature` ➔ `filter_by_geometry` ➔ `plot_spatial_map` ➔ `generate_response`

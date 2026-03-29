@@ -1,0 +1,38 @@
+&share
+    end_date = '2021-07-26_00:00:00'
+    interval_seconds = 21600
+    io_form_geogrid = 2
+    max_dom = 1
+    start_date = '2021-07-23_00:00:00'
+    wrf_core = 'ARW'
+/
+
+&geogrid
+    dx = 10000
+    dy = 10000
+    e_sn = 181
+    e_we = 181
+    geog_data_path = '/home/zkk/Build_WRF/geog'
+    i_parent_start = 1
+    j_parent_start = 1
+    map_proj = 'lambert'
+    opt_geogrid_tbl_path = './geogrid/'
+    parent_grid_ratio = 1
+    parent_id = 1
+    ref_lat = 30
+    ref_lon = 125
+    stand_lon = 125
+    truelat1 = 30
+    truelat2 = 60
+/
+
+&ungrib
+    out_format = 'WPS'
+    prefix = 'FILE'
+/
+
+&metgrid
+    fg_name = 'FILE'
+    io_form_metgrid = 2
+/
+
