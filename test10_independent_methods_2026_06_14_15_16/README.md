@@ -29,3 +29,10 @@ python3 run_forecast_v2.py --dates 2026-06-14 2026-06-15 2026-06-16 --run-tag T0
 python3 run_forecast_v2_later.py --dates 2026-06-14 2026-06-15 2026-06-16 \
     --run-tag T1 --compare-with T0_results
 ```
+
+## ⏰ Cron job (T+12h auto re-run)
+- Schedule: 2026-06-14 12:53 CST (04:53 UTC) = T+12h
+- Script: `cron/run_t12h.sh`
+- Cron file: `cron/zephyrus_crontab`
+- Idempotent via sentinel files
+- See `cron/README.md` for details

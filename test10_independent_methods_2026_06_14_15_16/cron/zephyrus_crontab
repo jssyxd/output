@@ -1,0 +1,14 @@
+# Zephyrus T+12h re-run cron job
+# Schedule: 2026-06-14 12:53 CST = 04:53 UTC (T+12h from 2026-06-13 16:53 UTC system time)
+# Frequency: once (with idempotency via .done sentinel)
+# Logs: /home/da/桌面/Zephyrus/logs/cron.log
+# Cron uses LOCAL time on Ubuntu, so 12:53 CST is correct
+
+# Note: this crontab will trigger on 6/14 12:53 every year, but the script
+# has built-in guards:
+#   - Won't run unless results_v2/T0/.done exists (T0 must be done first)
+#   - Won't run if results_v2/T1/.done already exists
+#   - Won't run before 6/14 04:53 UTC (sleep until then)
+
+# Format: minute hour day_of_month month day_of_week command
+53 12 14 6 * /home/da/桌面/Zephyrus/cron/run_t12h.sh >> /home/da/桌面/Zephyrus/logs/cron.log 2>&1
