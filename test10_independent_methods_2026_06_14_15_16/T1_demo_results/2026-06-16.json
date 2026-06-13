@@ -1,0 +1,648 @@
+{
+  "meta": {
+    "lat": 31.1433,
+    "lon": 121.8052,
+    "target_date": "2026-06-16",
+    "bias_training_end": null,
+    "n_bias_days": 10,
+    "n_models_attempted": 10,
+    "n_models_succeeded": 9
+  },
+  "per_model": {
+    "icon_seamless": 26.9,
+    "meteofrance_seamless": 24.8,
+    "ecmwf_ifs025": 24.8,
+    "ukmo_seamless": 25.2,
+    "metno_seamless": 25.1,
+    "gem_seamless": 25.0,
+    "icon_global": 26.9,
+    "jma_seamless": 25.3,
+    "gfs_seamless": 25.8,
+    "jma_msm": null
+  },
+  "ens_stats": {
+    "mean": 25.03,
+    "median": 25.0,
+    "std": 0.6,
+    "p10": 24.3,
+    "p90": 25.7,
+    "min": 23.7,
+    "max": 26.4,
+    "n": 50
+  },
+  "cma_data": {
+    "source": "weather.com.cn (CMA)",
+    "city_code": "101020100",
+    "items": [
+      [
+        "13日（今天）",
+        "小雨",
+        "21℃",
+        "3-4级"
+      ],
+      [
+        "14日（明天）",
+        "小雨转多云",
+        "24℃",
+        "/",
+        "21℃"
+      ],
+      [
+        "15日（后天）",
+        "小雨转晴",
+        "27℃",
+        "/",
+        "22℃"
+      ],
+      [
+        "16日（周二）",
+        "小雨",
+        "28℃",
+        "/",
+        "23℃"
+      ],
+      [
+        "17日（周三）",
+        "小雨转阴",
+        "29℃",
+        "/",
+        "23℃"
+      ],
+      [
+        "18日（周四）",
+        "小雨转中雨",
+        "32℃",
+        "/",
+        "23℃"
+      ],
+      [
+        "19日（周五）",
+        "大雨转中雨",
+        "27℃",
+        "/",
+        "24℃"
+      ],
+      [
+        "6月11日",
+        "中东部暑热升级河南等地高温频繁南方明起迎新一轮强降雨过程",
+        "今明天，南北方暑热将发展，30℃以上区域将连成片。南方今天仍将处于降雨间歇期，但明天开始又将迎来新一轮降雨过程。"
+      ],
+      [
+        "6月2日",
+        "高温范围今日将达近期最大南方新一轮降水过程上线",
+        "今明天（6月2日至3日），东北及内蒙古多地仍有强对流天气，同时，南方新一轮降雨过程上线，西南地区东部等地雨势较强。北方炎热天气持续，​局地气温可达39℃。"
+      ],
+      [
+        "三亚",
+        "雷阵雨",
+        "28/33℃",
+        "一般"
+      ]
+    ]
+  },
+  "biases": {
+    "ecmwf_ifs025": {
+      "temperature_2m_max": {
+        "model": "ecmwf_ifs025",
+        "variable": "temperature_2m_max",
+        "bias": 0.95,
+        "std": 0.742,
+        "n_samples": 4,
+        "training_start": "2026-06-04",
+        "training_end": "2026-06-13",
+        "per_day_bias": [
+          0.9,
+          0.3,
+          0.6,
+          2.0
+        ]
+      },
+      "temperature_2m_min": {
+        "model": "ecmwf_ifs025",
+        "variable": "temperature_2m_min",
+        "bias": 0.85,
+        "std": 0.208,
+        "n_samples": 4,
+        "training_start": "2026-06-04",
+        "training_end": "2026-06-13",
+        "per_day_bias": [
+          0.6,
+          0.9,
+          0.8,
+          1.1
+        ]
+      }
+    },
+    "icon_seamless": {
+      "temperature_2m_max": {
+        "model": "icon_seamless",
+        "variable": "temperature_2m_max",
+        "bias": 0.7,
+        "std": 0.627,
+        "n_samples": 4,
+        "training_start": "2026-06-04",
+        "training_end": "2026-06-13",
+        "per_day_bias": [
+          1.5,
+          0.5,
+          0.8,
+          0.0
+        ]
+      },
+      "temperature_2m_min": {
+        "model": "icon_seamless",
+        "variable": "temperature_2m_min",
+        "bias": 0.8,
+        "std": 0.469,
+        "n_samples": 4,
+        "training_start": "2026-06-04",
+        "training_end": "2026-06-13",
+        "per_day_bias": [
+          0.2,
+          1.0,
+          0.7,
+          1.3
+        ]
+      }
+    },
+    "gem_seamless": {
+      "temperature_2m_max": {
+        "model": "gem_seamless",
+        "variable": "temperature_2m_max",
+        "bias": 0.825,
+        "std": 0.386,
+        "n_samples": 4,
+        "training_start": "2026-06-04",
+        "training_end": "2026-06-13",
+        "per_day_bias": [
+          1.4,
+          0.6,
+          0.7,
+          0.6
+        ]
+      },
+      "temperature_2m_min": {
+        "model": "gem_seamless",
+        "variable": "temperature_2m_min",
+        "bias": 0.025,
+        "std": 0.544,
+        "n_samples": 4,
+        "training_start": "2026-06-04",
+        "training_end": "2026-06-13",
+        "per_day_bias": [
+          -0.7,
+          0.6,
+          0.2,
+          0.0
+        ]
+      }
+    },
+    "ncep_seamless": {
+      "temperature_2m_max": {
+        "model": "ncep_seamless",
+        "variable": "temperature_2m_max",
+        "bias": 0.9,
+        "std": 1.262,
+        "n_samples": 4,
+        "training_start": "2026-06-04",
+        "training_end": "2026-06-13",
+        "per_day_bias": [
+          -0.8,
+          0.7,
+          1.7,
+          2.0
+        ]
+      },
+      "temperature_2m_min": {
+        "model": "ncep_seamless",
+        "variable": "temperature_2m_min",
+        "bias": -0.375,
+        "std": 0.427,
+        "n_samples": 4,
+        "training_start": "2026-06-04",
+        "training_end": "2026-06-13",
+        "per_day_bias": [
+          -0.7,
+          -0.3,
+          -0.7,
+          0.2
+        ]
+      }
+    }
+  },
+  "methods": {
+    "raw_icon_seamless": {
+      "method": "raw_icon_seamless",
+      "description": "Raw forecast from icon_seamless (no processing)",
+      "tmax_c": 26.9,
+      "tmin_c": null,
+      "confidence": "medium",
+      "components": {
+        "model": "icon_seamless",
+        "raw_tmax": 26.9
+      },
+      "notes": ""
+    },
+    "raw_meteofrance_seamless": {
+      "method": "raw_meteofrance_seamless",
+      "description": "Raw forecast from meteofrance_seamless (no processing)",
+      "tmax_c": 24.8,
+      "tmin_c": null,
+      "confidence": "medium",
+      "components": {
+        "model": "meteofrance_seamless",
+        "raw_tmax": 24.8
+      },
+      "notes": ""
+    },
+    "raw_ecmwf_ifs025": {
+      "method": "raw_ecmwf_ifs025",
+      "description": "Raw forecast from ecmwf_ifs025 (no processing)",
+      "tmax_c": 24.8,
+      "tmin_c": null,
+      "confidence": "medium",
+      "components": {
+        "model": "ecmwf_ifs025",
+        "raw_tmax": 24.8
+      },
+      "notes": ""
+    },
+    "raw_ukmo_seamless": {
+      "method": "raw_ukmo_seamless",
+      "description": "Raw forecast from ukmo_seamless (no processing)",
+      "tmax_c": 25.2,
+      "tmin_c": null,
+      "confidence": "medium",
+      "components": {
+        "model": "ukmo_seamless",
+        "raw_tmax": 25.2
+      },
+      "notes": ""
+    },
+    "raw_metno_seamless": {
+      "method": "raw_metno_seamless",
+      "description": "Raw forecast from metno_seamless (no processing)",
+      "tmax_c": 25.1,
+      "tmin_c": null,
+      "confidence": "medium",
+      "components": {
+        "model": "metno_seamless",
+        "raw_tmax": 25.1
+      },
+      "notes": ""
+    },
+    "raw_gem_seamless": {
+      "method": "raw_gem_seamless",
+      "description": "Raw forecast from gem_seamless (no processing)",
+      "tmax_c": 25.0,
+      "tmin_c": null,
+      "confidence": "medium",
+      "components": {
+        "model": "gem_seamless",
+        "raw_tmax": 25.0
+      },
+      "notes": ""
+    },
+    "raw_icon_global": {
+      "method": "raw_icon_global",
+      "description": "Raw forecast from icon_global (no processing)",
+      "tmax_c": 26.9,
+      "tmin_c": null,
+      "confidence": "medium",
+      "components": {
+        "model": "icon_global",
+        "raw_tmax": 26.9
+      },
+      "notes": ""
+    },
+    "raw_jma_seamless": {
+      "method": "raw_jma_seamless",
+      "description": "Raw forecast from jma_seamless (no processing)",
+      "tmax_c": 25.3,
+      "tmin_c": null,
+      "confidence": "medium",
+      "components": {
+        "model": "jma_seamless",
+        "raw_tmax": 25.3
+      },
+      "notes": ""
+    },
+    "raw_gfs_seamless": {
+      "method": "raw_gfs_seamless",
+      "description": "Raw forecast from gfs_seamless (no processing)",
+      "tmax_c": 25.8,
+      "tmin_c": null,
+      "confidence": "medium",
+      "components": {
+        "model": "gfs_seamless",
+        "raw_tmax": 25.8
+      },
+      "notes": ""
+    },
+    "simple_mean": {
+      "method": "simple_mean",
+      "description": "Unweighted mean of 9 NWP models",
+      "tmax_c": 25.53,
+      "tmin_c": null,
+      "confidence": "medium",
+      "components": {
+        "n_models": 9,
+        "values": [
+          26.9,
+          24.8,
+          24.8,
+          25.2,
+          25.1,
+          25.0,
+          26.9,
+          25.3,
+          25.8
+        ]
+      },
+      "notes": ""
+    },
+    "median": {
+      "method": "median",
+      "description": "Median of 9 NWP models",
+      "tmax_c": 25.2,
+      "tmin_c": null,
+      "confidence": "medium",
+      "components": {
+        "n_models": 9,
+        "values": [
+          24.8,
+          24.8,
+          25.0,
+          25.1,
+          25.2,
+          25.3,
+          25.8,
+          26.9,
+          26.9
+        ]
+      },
+      "notes": ""
+    },
+    "ecmwf_ifs025": {
+      "method": "ecmwf_ifs025",
+      "description": "Raw output from ecmwf_ifs025 only",
+      "tmax_c": 24.8,
+      "tmin_c": null,
+      "confidence": "medium",
+      "components": {
+        "model": "ecmwf_ifs025"
+      },
+      "notes": ""
+    },
+    "jma_msm": {
+      "method": "jma_msm",
+      "description": "Raw output from jma_msm only",
+      "tmax_c": null,
+      "tmin_c": null,
+      "confidence": "none",
+      "components": {
+        "model": "jma_msm"
+      },
+      "notes": ""
+    },
+    "tianji_weighted": {
+      "method": "tianji_weighted",
+      "description": "TianJi-style weighted consensus (9 det + ensemble boost)",
+      "tmax_c": 25.35,
+      "tmin_c": null,
+      "confidence": "medium",
+      "components": {
+        "weights": {
+          "icon_seamless": 0.1,
+          "meteofrance_seamless": 0.05,
+          "ecmwf_ifs025": 0.3,
+          "ukmo_seamless": 0.03,
+          "metno_seamless": 0.02,
+          "gem_seamless": 0.08,
+          "icon_global": 0.05,
+          "jma_seamless": 0.05,
+          "gfs_seamless": 0.15
+        },
+        "ensemble_mean": 25.03,
+        "n_models": 9
+      },
+      "notes": ""
+    },
+    "zephyrus_hybrid": {
+      "method": "zephyrus_hybrid",
+      "description": "Zephyrus hybrid: 50 ensemble + 9 deterministic, member-weighted",
+      "tmax_c": 25.11,
+      "tmin_c": null,
+      "confidence": "high",
+      "components": {
+        "det_mean": 25.533333333333335,
+        "n_det": 9,
+        "ens_mean": 25.03,
+        "ens_std": 0.6
+      },
+      "notes": ""
+    },
+    "bias_corrected_mean": {
+      "method": "bias_corrected_mean",
+      "description": "Bias-corrected mean: per-model ERA5 bias subtracted, then averaged (9 models)",
+      "tmax_c": 25.26,
+      "tmin_c": null,
+      "confidence": "high",
+      "components": {
+        "corrected": {
+          "icon_seamless": 26.2,
+          "meteofrance_seamless": 24.8,
+          "ecmwf_ifs025": 23.85,
+          "ukmo_seamless": 25.2,
+          "metno_seamless": 25.1,
+          "gem_seamless": 24.18,
+          "icon_global": 26.9,
+          "jma_seamless": 25.3,
+          "gfs_seamless": 25.8,
+          "jma_msm": null
+        },
+        "raw": {
+          "icon_seamless": 26.9,
+          "meteofrance_seamless": 24.8,
+          "ecmwf_ifs025": 24.8,
+          "ukmo_seamless": 25.2,
+          "metno_seamless": 25.1,
+          "gem_seamless": 25.0,
+          "icon_global": 26.9,
+          "jma_seamless": 25.3,
+          "gfs_seamless": 25.8,
+          "jma_msm": null
+        },
+        "biases_applied": {
+          "icon_seamless": 0.7,
+          "ecmwf_ifs025": 0.95,
+          "gem_seamless": 0.825
+        }
+      },
+      "notes": ""
+    },
+    "bias_corrected_ecmwf_ifs025": {
+      "method": "bias_corrected_ecmwf_ifs025",
+      "description": "ecmwf_ifs025 raw - bias (+0.95°C) = bias-corrected forecast",
+      "tmax_c": 23.85,
+      "tmin_c": null,
+      "confidence": "medium",
+      "components": {
+        "raw": 24.8,
+        "bias_value": 0.95,
+        "bias_std": 0.742,
+        "n_samples": 4
+      },
+      "notes": ""
+    },
+    "bias_corrected_gfs_seamless": {
+      "method": "bias_corrected_gfs_seamless",
+      "description": "gfs_seamless raw - bias (+0.90°C) = bias-corrected forecast",
+      "tmax_c": 24.9,
+      "tmin_c": null,
+      "confidence": "medium",
+      "components": {
+        "raw": 25.8,
+        "bias_value": 0.9,
+        "bias_std": 1.262,
+        "n_samples": 4
+      },
+      "notes": ""
+    },
+    "bias_corrected_jma_msm": {
+      "method": "bias_corrected_jma_msm",
+      "description": "jma_msm + bias",
+      "tmax_c": null,
+      "tmin_c": null,
+      "confidence": "none",
+      "components": {},
+      "notes": ""
+    },
+    "bias_corrected_icon_seamless": {
+      "method": "bias_corrected_icon_seamless",
+      "description": "icon_seamless raw - bias (+0.70°C) = bias-corrected forecast",
+      "tmax_c": 26.2,
+      "tmin_c": null,
+      "confidence": "medium",
+      "components": {
+        "raw": 26.9,
+        "bias_value": 0.7,
+        "bias_std": 0.627,
+        "n_samples": 4
+      },
+      "notes": ""
+    },
+    "cma_official": {
+      "method": "cma_official",
+      "description": "CMA 中央气象台 official human-issued forecast",
+      "tmax_c": 24,
+      "tmin_c": null,
+      "confidence": "high",
+      "components": {
+        "source": "weather.com.cn (CMA)",
+        "cma_data": {
+          "source": "weather.com.cn (CMA)",
+          "city_code": "101020100",
+          "items": [
+            [
+              "13日（今天）",
+              "小雨",
+              "21℃",
+              "3-4级"
+            ],
+            [
+              "14日（明天）",
+              "小雨转多云",
+              "24℃",
+              "/",
+              "21℃"
+            ],
+            [
+              "15日（后天）",
+              "小雨转晴",
+              "27℃",
+              "/",
+              "22℃"
+            ],
+            [
+              "16日（周二）",
+              "小雨",
+              "28℃",
+              "/",
+              "23℃"
+            ],
+            [
+              "17日（周三）",
+              "小雨转阴",
+              "29℃",
+              "/",
+              "23℃"
+            ],
+            [
+              "18日（周四）",
+              "小雨转中雨",
+              "32℃",
+              "/",
+              "23℃"
+            ],
+            [
+              "19日（周五）",
+              "大雨转中雨",
+              "27℃",
+              "/",
+              "24℃"
+            ],
+            [
+              "6月11日",
+              "中东部暑热升级河南等地高温频繁南方明起迎新一轮强降雨过程",
+              "今明天，南北方暑热将发展，30℃以上区域将连成片。南方今天仍将处于降雨间歇期，但明天开始又将迎来新一轮降雨过程。"
+            ],
+            [
+              "6月2日",
+              "高温范围今日将达近期最大南方新一轮降水过程上线",
+              "今明天（6月2日至3日），东北及内蒙古多地仍有强对流天气，同时，南方新一轮降雨过程上线，西南地区东部等地雨势较强。北方炎热天气持续，​局地气温可达39℃。"
+            ],
+            [
+              "三亚",
+              "雷阵雨",
+              "28/33℃",
+              "一般"
+            ]
+          ]
+        }
+      },
+      "notes": ""
+    },
+    "era5_persistence": {
+      "method": "era5_persistence",
+      "description": "Naive persistence: cannot fetch yesterday (2026-06-15) data - Open-Meteo request failed after 3 retries: HTTP Error 400: Bad Request",
+      "tmax_c": null,
+      "tmin_c": null,
+      "confidence": "none",
+      "components": {
+        "yesterday": "2026-06-15",
+        "error": "Open-Meteo request failed after 3 retries: HTTP Error 400: Bad Request"
+      },
+      "notes": ""
+    },
+    "ecmwf_ensemble_mean": {
+      "method": "ecmwf_ensemble_mean",
+      "description": "ECMWF 50-member ensemble mean (std=0.6°C)",
+      "tmax_c": 25.03,
+      "tmin_c": null,
+      "confidence": "high",
+      "components": {
+        "mean": 25.03,
+        "median": 25.0,
+        "std": 0.6,
+        "p10": 24.3,
+        "p90": 25.7,
+        "min": 23.7,
+        "max": 26.4,
+        "n": 50
+      },
+      "notes": ""
+    }
+  },
+  "actual_observation": null
+}
