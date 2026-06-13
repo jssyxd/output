@@ -1,0 +1,105 @@
+{
+  "meta": {
+    "run_tag": "T1",
+    "lat": 31.1433,
+    "lon": 121.8052,
+    "name": "Shanghai Pudong Airport (ZSPD)",
+    "dates": [
+      "2026-06-14",
+      "2026-06-15",
+      "2026-06-16"
+    ],
+    "elapsed_s": 35.17,
+    "framework": "Zephyrus + TianJi (glue) v2 T+12h re-run"
+  },
+  "actual_observations": {},
+  "per_date": {
+    "2026-06-14": {
+      "n_models_succeeded": 10,
+      "methods_tmax": {
+        "raw_ecmwf_ifs025": 22.9,
+        "raw_ukmo_seamless": 24.0,
+        "raw_jma_msm": 23.2,
+        "raw_icon_global": 23.6,
+        "raw_metno_seamless": 23.0,
+        "raw_gem_seamless": 25.5,
+        "raw_icon_seamless": 23.6,
+        "raw_gfs_seamless": 24.6,
+        "raw_jma_seamless": 23.2,
+        "raw_meteofrance_seamless": 24.1,
+        "simple_mean": 23.77,
+        "median": 23.6,
+        "ecmwf_ifs025": 22.9,
+        "jma_msm": 23.2,
+        "tianji_weighted": 23.54,
+        "zephyrus_hybrid": 23.2,
+        "bias_corrected_mean": 23.52,
+        "bias_corrected_ecmwf_ifs025": 21.95,
+        "bias_corrected_gfs_seamless": 23.7,
+        "bias_corrected_jma_msm": 23.2,
+        "bias_corrected_icon_seamless": 22.9,
+        "cma_official": 24,
+        "era5_persistence": 26.2,
+        "ecmwf_ensemble_mean": 23.08
+      }
+    },
+    "2026-06-15": {
+      "n_models_succeeded": 10,
+      "methods_tmax": {
+        "raw_jma_msm": 23.7,
+        "raw_meteofrance_seamless": 25.0,
+        "raw_icon_seamless": 24.6,
+        "raw_icon_global": 24.6,
+        "raw_gfs_seamless": 24.9,
+        "raw_ecmwf_ifs025": 24.1,
+        "raw_gem_seamless": 24.0,
+        "raw_ukmo_seamless": 24.9,
+        "raw_jma_seamless": 23.7,
+        "raw_metno_seamless": 24.2,
+        "simple_mean": 24.37,
+        "median": 24.4,
+        "ecmwf_ifs025": 24.1,
+        "jma_msm": 23.7,
+        "tianji_weighted": 24.31,
+        "zephyrus_hybrid": 24.43,
+        "bias_corrected_mean": 24.12,
+        "bias_corrected_ecmwf_ifs025": 23.15,
+        "bias_corrected_gfs_seamless": 24.0,
+        "bias_corrected_jma_msm": 23.7,
+        "bias_corrected_icon_seamless": 23.9,
+        "cma_official": 24,
+        "era5_persistence": null,
+        "ecmwf_ensemble_mean": 24.44
+      }
+    },
+    "2026-06-16": {
+      "n_models_succeeded": 10,
+      "methods_tmax": {
+        "raw_gfs_seamless": 25.8,
+        "raw_jma_msm": 25.1,
+        "raw_icon_global": 27.1,
+        "raw_ukmo_seamless": 25.2,
+        "raw_metno_seamless": 25.1,
+        "raw_jma_seamless": 25.1,
+        "raw_meteofrance_seamless": 24.8,
+        "raw_ecmwf_ifs025": 24.8,
+        "raw_gem_seamless": 25.0,
+        "raw_icon_seamless": 27.1,
+        "simple_mean": 25.51,
+        "median": 25.1,
+        "ecmwf_ifs025": 24.8,
+        "jma_msm": 25.1,
+        "tianji_weighted": 25.34,
+        "zephyrus_hybrid": 25.11,
+        "bias_corrected_mean": 25.26,
+        "bias_corrected_ecmwf_ifs025": 23.85,
+        "bias_corrected_gfs_seamless": 24.9,
+        "bias_corrected_jma_msm": 25.1,
+        "bias_corrected_icon_seamless": 26.4,
+        "cma_official": 24,
+        "era5_persistence": null,
+        "ecmwf_ensemble_mean": 25.03
+      }
+    }
+  }
+}
