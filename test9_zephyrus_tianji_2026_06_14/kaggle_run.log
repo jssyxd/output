@@ -1,0 +1,69 @@
+[{"stream_name":"stdout","time":0.970068467,"data":"Geocoding 'Shanghai Pudong Airport':\n"}
+,{"stream_name":"stdout","time":1.5512021599999999,"data":"  Pudong, China @ (31.23995, 121.50094) elev=9.0m\n"}
+,{"stream_name":"stdout","time":1.551253081,"data":"  Hyeonpung, South Korea @ (35.69557, 128.44608) elev=29.0m\n"}
+,{"stream_name":"stdout","time":1.5512590849999999,"data":"  Pudong, Philippines @ (16.6041, 120.6008) elev=935.0m\n"}
+,{"stream_name":"stdout","time":1.5512621210000002,"data":"  Pudong, China @ (28.04975, 120.63353) elev=13.0m\n"}
+,{"stream_name":"stdout","time":1.551264848,"data":"  Pudong, China @ (37.02694, 112.16972) elev=1395.0m\n"}
+,{"stream_name":"stdout","time":1.5512676010000002,"data":"\n"}
+,{"stream_name":"stdout","time":1.551271039,"data":"Multi-model forecast 2026-06-14:\n"}
+,{"stream_name":"stdout","time":2.762901525,"data":"  ecmwf_ifs025             : T_max=22.9°C, T_min=21.1°C, rain=14.1mm\n"}
+,{"stream_name":"stdout","time":2.762961304,"data":"  gem_seamless             : T_max=25.5°C, T_min=20.7°C, rain=10.2mm\n"}
+,{"stream_name":"stdout","time":2.762967364,"data":"  gfs_seamless             : T_max=24.6°C, T_min=20.8°C, rain=10.7mm\n"}
+,{"stream_name":"stdout","time":2.762971638,"data":"  icon_seamless            : T_max=23.0°C, T_min=21.0°C, rain=0.4mm\n"}
+,{"stream_name":"stdout","time":2.762975687,"data":"  jma_msm                  : T_max=23.3°C, T_min=21.7°C, rain=3.8mm\n"}
+,{"stream_name":"stdout","time":2.7629798020000003,"data":"  meteofrance_seamless     : T_max=23.7°C, T_min=22.5°C, rain=16.4mm\n"}
+,{"stream_name":"stdout","time":2.762983979,"data":"\n"}
+,{"stream_name":"stdout","time":2.762987976,"data":"ECMWF 50-member ensemble for 2026-06-14:\n"}
+,{"stream_name":"stdout","time":3.247930727,"data":"  temperature_2m_max       : n=50, mean=23.01, range=[21.8, 24.4]\n"}
+,{"stream_name":"stdout","time":3.24796869,"data":"  temperature_2m_min       : n=50, mean=21.42, range=[20.4, 22.6]\n"}
+,{"stream_name":"stdout","time":3.2479812040000002,"data":"  precipitation_sum        : n=50, mean=14.14, range=[3.9, 25.6]\n"}
+,{"stream_name":"stdout","time":3.265532803,"data":"=== Zephyrus + TianJi forecast - 2026-06-13T14:06:36.414318 ===\n"}
+,{"stream_name":"stdout","time":3.265565027,"data":"Python: 3.12.13\n"}
+,{"stream_name":"stdout","time":3.265570857,"data":"\n"}
+,{"stream_name":"stdout","time":3.265581192,"data":"Step 1: Geocoding\n"}
+,{"stream_name":"stdout","time":3.8136858030000003,"data":"  Match: Pudong (31.23995, 121.50094)\n"}
+,{"stream_name":"stdout","time":3.813724987,"data":"\n"}
+,{"stream_name":"stdout","time":3.8137366740000003,"data":"Step 2: TianJi consensus for 2026-06-14\n"}
+,{"stream_name":"stdout","time":17.788209759,"data":"\n"}
+,{"stream_name":"stdout","time":17.788271576,"data":"Worker results:\n"}
+,{"stream_name":"stdout","time":17.788280049,"data":"  ecmwf_ifs025              (deterministic, n= 1): T_max=22.90°C  [1191ms]\n"}
+,{"stream_name":"stdout","time":17.788288071,"data":"  gfs_seamless              (deterministic, n= 1): T_max=24.60°C  [2483ms]\n"}
+,{"stream_name":"stdout","time":17.788294402,"data":"  icon_seamless             (deterministic, n= 1): T_max=23.00°C  [650ms]\n"}
+,{"stream_name":"stdout","time":17.788301506,"data":"  gem_seamless              (deterministic, n= 1): T_max=25.50°C  [1339ms]\n"}
+,{"stream_name":"stdout","time":17.788307744,"data":"  jma_msm                   (deterministic, n= 1): T_max=23.30°C  [470ms]\n"}
+,{"stream_name":"stdout","time":17.788313996,"data":"  meteofrance_seamless      (deterministic, n= 1): T_max=23.70°C  [3452ms]\n"}
+,{"stream_name":"stdout","time":17.788325251,"data":"  ecmwf_ifs025              (ensemble     , n=50): T_max=23.01°C ±0.59 [496ms]\n"}
+,{"stream_name":"stdout","time":17.788351862,"data":"\n"}
+,{"stream_name":"stdout","time":17.788358049,"data":"Consensus: {\n"}
+,{"stream_name":"stdout","time":17.788360919,"data":"  \"tmax_c\": 23.44,\n"}
+,{"stream_name":"stdout","time":17.7883637,"data":"  \"tmin_c\": 21.1,\n"}
+,{"stream_name":"stdout","time":17.788366276,"data":"  \"rain_mm\": 9.96,\n"}
+,{"stream_name":"stdout","time":17.788368971,"data":"  \"spread_c\": 0.79,\n"}
+,{"stream_name":"stdout","time":17.788371683,"data":"  \"confidence\": \"high\",\n"}
+,{"stream_name":"stdout","time":17.788374427,"data":"  \"n_models\": 7,\n"}
+,{"stream_name":"stdout","time":17.788377094,"data":"  \"weighted_method\": \"weight * tmax / sum(weight)\"\n"}
+,{"stream_name":"stdout","time":17.788379937,"data":"}\n"}
+,{"stream_name":"stdout","time":17.78979908,"data":"\n"}
+,{"stream_name":"stdout","time":17.789829805,"data":"Saved: /kaggle/working/forecast_2026-06-14_20260613T140650.json\n"}
+,{"stream_name":"stdout","time":17.789836147,"data":"\n"}
+,{"stream_name":"stdout","time":17.789840969,"data":"============================================================\n"}
+,{"stream_name":"stdout","time":17.789845672,"data":"FINAL PREDICTION for Shanghai Pudong 2026-06-14\n"}
+,{"stream_name":"stdout","time":17.789850327,"data":"============================================================\n"}
+,{"stream_name":"stdout","time":17.789855007,"data":"{\n"}
+,{"stream_name":"stdout","time":17.789859839000002,"data":"  \"tianji_consensus_tmax_c\": 23.44,\n"}
+,{"stream_name":"stdout","time":17.789865277,"data":"  \"tianji_consensus_spread_c\": 0.79,\n"}
+,{"stream_name":"stdout","time":17.789870372,"data":"  \"tianji_confidence\": \"high\",\n"}
+,{"stream_name":"stdout","time":17.789875358,"data":"  \"cma_official_tmax_c\": 24,\n"}
+,{"stream_name":"stdout","time":17.789880253,"data":"  \"cma_source\": \"weather.com.cn (CMA)\",\n"}
+,{"stream_name":"stdout","time":17.789885447,"data":"  \"weighted_blend_tmax_c\": 23.61,\n"}
+,{"stream_name":"stdout","time":17.789890629,"data":"  \"interpretation\": \"TianJi multi-model consensus: 23.44°C. CMA official (human-issued): 24°C. Weighted blend (70% models + 30% CMA): 23.61°C.\"\n"}
+,{"stream_name":"stdout","time":17.789896462,"data":"}\n"}
+,{"stream_name":"stdout","time":17.789901122,"data":"\n"}
+,{"stream_name":"stdout","time":17.789909276,"data":"Total elapsed: 14.52s\n"}
+,{"stream_name":"stderr","time":20.353105575,"data":"/usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":20.353159885,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":20.702096157,"data":"/usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":20.702126104,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":22.156714851,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":23.741126582,"data":"[NbConvertApp] Writing 442879 bytes to __results__.html\n"}
+]

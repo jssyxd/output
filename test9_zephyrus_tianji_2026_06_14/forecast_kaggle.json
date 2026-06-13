@@ -1,0 +1,175 @@
+{
+  "meta": {
+    "run_id": "20260613T140650",
+    "date": "2026-06-14",
+    "lat": 31.1433,
+    "lon": 121.8052,
+    "name": "Shanghai Pudong Airport (ZSPD)",
+    "elapsed_s": 14.52,
+    "framework": "Zephyrus + TianJi (glue)",
+    "data_source": "Open-Meteo (ECMWF/GFS/ICON/JMA/GEM/MétéoFrance) + weather.com.cn (CMA)",
+    "platform": "Kaggle"
+  },
+  "tianji": {
+    "consensus": {
+      "tmax_c": 23.44,
+      "tmin_c": 21.1,
+      "rain_mm": 9.96,
+      "spread_c": 0.79,
+      "confidence": "high",
+      "n_models": 7,
+      "weighted_method": "weight * tmax / sum(weight)"
+    },
+    "workers": [
+      {
+        "name": "ecmwf_ifs025",
+        "role": "deterministic",
+        "n": 1,
+        "tmax_c": 22.9,
+        "tmin_c": 21.1,
+        "rain_mm": 14.1,
+        "spread_c": null,
+        "elapsed_ms": 1191.0130977630615
+      },
+      {
+        "name": "gfs_seamless",
+        "role": "deterministic",
+        "n": 1,
+        "tmax_c": 24.6,
+        "tmin_c": 20.8,
+        "rain_mm": 10.7,
+        "spread_c": null,
+        "elapsed_ms": 2483.203887939453
+      },
+      {
+        "name": "icon_seamless",
+        "role": "deterministic",
+        "n": 1,
+        "tmax_c": 23.0,
+        "tmin_c": 21.0,
+        "rain_mm": 0.4,
+        "spread_c": null,
+        "elapsed_ms": 650.3632068634033
+      },
+      {
+        "name": "gem_seamless",
+        "role": "deterministic",
+        "n": 1,
+        "tmax_c": 25.5,
+        "tmin_c": 20.7,
+        "rain_mm": 10.2,
+        "spread_c": null,
+        "elapsed_ms": 1338.92822265625
+      },
+      {
+        "name": "jma_msm",
+        "role": "deterministic",
+        "n": 1,
+        "tmax_c": 23.3,
+        "tmin_c": 21.7,
+        "rain_mm": 3.8,
+        "spread_c": null,
+        "elapsed_ms": 469.5699214935303
+      },
+      {
+        "name": "meteofrance_seamless",
+        "role": "deterministic",
+        "n": 1,
+        "tmax_c": 23.7,
+        "tmin_c": 22.5,
+        "rain_mm": 16.4,
+        "spread_c": null,
+        "elapsed_ms": 3452.393054962158
+      },
+      {
+        "name": "ecmwf_ifs025",
+        "role": "ensemble",
+        "n": 50,
+        "tmax_c": 23.014,
+        "tmin_c": 21.416,
+        "rain_mm": 14.14,
+        "spread_c": 0.5914389233048497,
+        "elapsed_ms": 495.6932067871094
+      }
+    ]
+  },
+  "cma": {
+    "source": "weather.com.cn (CMA)",
+    "city_code": "101020100",
+    "items": [
+      [
+        "13日（今天）",
+        "小雨",
+        "21℃",
+        "3-4级"
+      ],
+      [
+        "14日（明天）",
+        "小雨转多云",
+        "24℃",
+        "/",
+        "21℃"
+      ],
+      [
+        "15日（后天）",
+        "小雨转晴",
+        "27℃",
+        "/",
+        "22℃"
+      ],
+      [
+        "16日（周二）",
+        "小雨",
+        "28℃",
+        "/",
+        "23℃"
+      ],
+      [
+        "17日（周三）",
+        "小雨转阴",
+        "29℃",
+        "/",
+        "23℃"
+      ],
+      [
+        "18日（周四）",
+        "小雨转中雨",
+        "32℃",
+        "/",
+        "23℃"
+      ],
+      [
+        "19日（周五）",
+        "大雨转中雨",
+        "27℃",
+        "/",
+        "24℃"
+      ],
+      [
+        "6月11日",
+        "中东部暑热升级河南等地高温频繁南方明起迎新一轮强降雨过程",
+        "今明天，南北方暑热将发展，30℃以上区域将连成片。南方今天仍将处于降雨间歇期，但明天开始又将迎来新一轮降雨过程。"
+      ],
+      [
+        "6月2日",
+        "高温范围今日将达近期最大南方新一轮降水过程上线",
+        "今明天（6月2日至3日），东北及内蒙古多地仍有强对流天气，同时，南方新一轮降雨过程上线，西南地区东部等地雨势较强。北方炎热天气持续，​局地气温可达39℃。"
+      ],
+      [
+        "三亚",
+        "雷阵雨",
+        "28/33℃",
+        "一般"
+      ]
+    ]
+  },
+  "final_synthesis": {
+    "tianji_consensus_tmax_c": 23.44,
+    "tianji_consensus_spread_c": 0.79,
+    "tianji_confidence": "high",
+    "cma_official_tmax_c": 24,
+    "cma_source": "weather.com.cn (CMA)",
+    "weighted_blend_tmax_c": 23.61,
+    "interpretation": "TianJi multi-model consensus: 23.44°C. CMA official (human-issued): 24°C. Weighted blend (70% models + 30% CMA): 23.61°C."
+  }
+}
